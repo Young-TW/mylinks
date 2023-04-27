@@ -3,7 +3,7 @@ const links = [
     title: 'Blog',
     subtitle: 'My blog!',
     link: 'https://blog.young-tw.com',
-    bg: "/blog.jpg",
+    bg: "/browser.png",
   },
   {
     title: 'GitHub',
@@ -14,39 +14,61 @@ const links = [
   {
     title: 'YouTube',
     subtitle: '@Young-TW | 🏡 to all my open-source projects',
-    link: 'https://github.com/Young-TW',
-    bg: "/github.png",
+    link: 'https://www.youtube.com/channel/UCJC4x0CgeqsmdgX3W_cJB3A',
+    bg: "/youtube.png",
   },
   {
     title: 'Links',
     subtitle: '@Young-TW | 🏡 to all my social links',
-    link: 'https://github.com/Young-TW',
-    bg: "/github.png",
+    link: 'https://',
+    bg: "/browser.png",
   },
   {
     title: 'Discord',
     subtitle: '@Young#6710 | 🏡 Join my Discord server!',
-    link: 'https://github.com/Young-TW',
-    bg: "/github.png",
+    link: 'https://discord.gg/sJ4bX3AquY',
+    bg: "/discord.jpeg",
   },
   {
-    title: 'GitHub',
-    subtitle: '@Young-TW | 🏡 to all my open-source projects',
+    title: 'Instagram',
+    subtitle: '@young__tw | 🏡 My Instagram account',
+    link: 'https://www.instagram.com/young__tw/',
+    bg: "/instagram.png",
+  },
+  {
+    title: 'Telegram',
+    subtitle: '@young__tw | 🏡 My Instagram account',
     link: 'https://github.com/Young-TW',
-    bg: "/github.png",
+    bg: "/telegram.png",
+  },
+  {
+    title: 'Twitter',
+    subtitle: '@Young___TW | 🏡 My Twitter account',
+    link: 'https://twitter.com/Young___TW',
+    bg: "/twitter.png",
+  },
+  {
+    title: 'Osu!',
+    subtitle: '@-Young- | 🏡 My Osu! profile',
+    link: 'https://osu.ppy.sh/users/15561507',
+    bg: "/osu.jpeg",
+  },
+  {
+    title: 'Facebook',
+    subtitle: 'My Facebook account',
+    link: 'https://www.facebook.com/young20050727',
+    bg: "/facebook.png",
   },
 ];
 
-// <Image src={p.bg} className="w-full h-1/2 rounded-lg" />
-
 export default function Link_Cards() {
   return (
-    <div className="flex flex-wrap space-x-8 space-y-8 font-mono">
+    <div className="flex flex-wrap font-mono">
       {links.map((p) => {
         return (
-          <a href={p.link} className="h-48 md:w-64 bg-slate-800 rounded-lg hover:bg-slate-700" key={p.title}>
-            <img src={p.bg} className="w-full h-1/2 rounded-lg" />
-            <div className="w-full h-1/2">
+          <a href={p.link} className="h-48 w-64 mt-8 rounded-lg mx-auto bg-slate-800 hover:bg-slate-700" key={p.title}>
+            <img src={p.bg} className="w-fit h-1/2 rounded-lg" />
+            <div className="h-1/2">
               <h3 className="notosans text-center text-lg h-fit">
                 {p.title}
               </h3>
