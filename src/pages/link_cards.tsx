@@ -14,16 +14,16 @@ const links = [
     bg: "/github.png",
   },
   {
+    title: 'Mastodon',
+    subtitle: '@young_tw | 🏡 My Mastodon account',
+    link: 'https://mastodon.social/@young_tw',
+    bg: "/mastodon.jpg",
+  },
+  {
     title: 'YouTube',
     subtitle: '🏡 My YouTube channel!',
     link: 'https://www.youtube.com/channel/UCJC4x0CgeqsmdgX3W_cJB3A',
     bg: "/youtube.png",
-  },
-  {
-    title: 'Links',
-    subtitle: '🏡 to all my social links',
-    link: 'https://',
-    bg: "/browser.png",
   },
   {
     title: 'Discord',
@@ -60,6 +60,18 @@ const links = [
     subtitle: '🏡 My Facebook account',
     link: 'https://www.facebook.com/young20050727',
     bg: "/facebook.png",
+  },
+  {
+    title: 'Links',
+    subtitle: '🏡 to all my social links',
+    link: 'https://blog.young-tw.com/mylinks/',
+    bg: "/link.jpg",
+  },
+  {
+    title: 'Matrix Chat',
+    subtitle: '@-young-:matrix.org | 🏡 My Matrix.org account',
+    link: '@-young-:matrix.org',
+    bg: "/element.png",
   },
 ];
 
