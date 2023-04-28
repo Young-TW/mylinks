@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const links = [
   {
     title: 'Blog',
@@ -61,13 +63,27 @@ const links = [
   },
 ];
 
+// <img src={p.bg} className="w-fit h-1/2 rounded-lg" />
+
 export default function Link_Cards() {
   return (
     <div className="flex flex-wrap font-mono">
       {links.map((p) => {
         return (
           <a href={p.link} className="h-48 w-64 mt-8 rounded-lg mx-auto bg-slate-800 hover:bg-slate-700" key={p.title}>
-            <img src={p.bg} className="w-fit h-1/2 rounded-lg" />
+            <div className="w-fit h-1/2 rounded-lg" style={{width: '100%', height: '50%', position: 'relative'}}>
+              <Image
+                src={p.bg}
+                layout="fill"
+                objectFit="cover"
+                // width={128}
+                // height={48}
+                // objectFit="cover"
+                // overflow="hidden"
+                alt={p.title}
+                className="rounded-lg"
+              />
+            </div>
             <div className="h-1/2">
               <h3 className="notosans text-center text-lg h-fit">
                 {p.title}
