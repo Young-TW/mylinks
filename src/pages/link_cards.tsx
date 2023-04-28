@@ -13,13 +13,13 @@ const links = [
   },
   {
     title: 'YouTube',
-    subtitle: '@Young-TW | 🏡 to all my open-source projects',
+    subtitle: '🏡 My YouTube channel!',
     link: 'https://www.youtube.com/channel/UCJC4x0CgeqsmdgX3W_cJB3A',
     bg: "/youtube.png",
   },
   {
     title: 'Links',
-    subtitle: '@Young-TW | 🏡 to all my social links',
+    subtitle: '🏡 to all my social links',
     link: 'https://',
     bg: "/browser.png",
   },
@@ -37,7 +37,7 @@ const links = [
   },
   {
     title: 'Telegram',
-    subtitle: '@young__tw | 🏡 My Instagram account',
+    subtitle: '🏡 My Telegram account',
     link: 'https://github.com/Young-TW',
     bg: "/telegram.png",
   },
@@ -55,7 +55,7 @@ const links = [
   },
   {
     title: 'Facebook',
-    subtitle: 'My Facebook account',
+    subtitle: '🏡 My Facebook account',
     link: 'https://www.facebook.com/young20050727',
     bg: "/facebook.png",
   },
