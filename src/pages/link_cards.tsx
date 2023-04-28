@@ -63,8 +63,6 @@ const links = [
   },
 ];
 
-// <img src={p.bg} className="w-fit h-1/2 rounded-lg" />
-
 export default function Link_Cards() {
   return (
     <div className="flex flex-wrap font-mono">
@@ -76,10 +74,6 @@ export default function Link_Cards() {
                 src={p.bg}
                 layout="fill"
                 objectFit="cover"
-                // width={128}
-                // height={48}
-                // objectFit="cover"
-                // overflow="hidden"
                 alt={p.title}
                 className="rounded-lg"
               />
