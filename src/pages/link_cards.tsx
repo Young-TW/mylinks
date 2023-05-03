@@ -83,34 +83,36 @@ const links = [
     title: 'Medium',
     subtitle: '@Young-TW | 🏡 My Medium account',
     link: 'https://medium.com/@Young-TW',
-    bg: "/mylinks/medium.jpeg",
+    bg: "/medium.jpeg",
   },
 ];
 
 export default function Link_Cards() {
   return (
-    <div className="flex flex-wrap font-mono">
+    <div className="flex flex-wrap">
       {links.map((p) => {
         return (
-          <a href={p.link} className="h-48 w-64 mt-8 rounded-lg mx-auto bg-slate-800 hover:bg-slate-700" key={p.title}>
-            <div className="w-fit h-1/2 rounded-lg" style={{width: '100%', height: '50%', position: 'relative'}}>
-              <Image
-                src={p.bg}
-                layout="fill"
-                objectFit="cover"
-                alt={p.title}
-                className="rounded-lg"
-              />
-            </div>
-            <div className="h-1/2">
-              <h3 className="notosans text-center text-lg h-fit">
-                {p.title}
-              </h3>
-              <p className="text-sm px-4">
-                {p.subtitle}
-              </p>
-            </div>
-          </a>
+          <div className="h-48 w-64 mt-6 rounded-lg mx-auto hover:animate-pulse" key={p.title}>
+            <a href={p.link}>
+              <div className="w-fit h-1/2 rounded-lg" style={{width: '100%', height: '50%', position: 'relative'}}>
+                <Image
+                  src={p.bg}
+                  layout="fill"
+                  objectFit="cover"
+                  alt={p.title}
+                  className="rounded-lg"
+                />
+              </div>
+              <div className="h-1/2 rounded-lg backdrop-blur-lg opacity-90 bg-slate-600">
+                <h3 className="notosans text-center text-lg h-fit">
+                  {p.title}
+                </h3>
+                <p className="text-sm px-4">
+                  {p.subtitle}
+                </p>
+              </div>
+            </a>
+          </div>
         );
       })}
     </div>
