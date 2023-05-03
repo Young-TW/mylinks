@@ -73,6 +73,18 @@ const links = [
     link: '@-young-:matrix.org',
     bg: "/mylinks/element.png",
   },
+  {
+    title: 'Steam',
+    subtitle: '@youngtw | 🏡 My Steam account',
+    link: 'https://steamcommunity.com/id/youngtw/',
+    bg: "/mylinks/steam.jpeg",
+  },
+  {
+    title: 'Medium',
+    subtitle: '@Young-TW | 🏡 My Medium account',
+    link: 'https://medium.com/@Young-TW',
+    bg: "/mylinks/medium.jpeg",
+  },
 ];
 
 export default function Link_Cards() {
