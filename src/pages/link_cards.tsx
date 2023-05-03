@@ -83,7 +83,7 @@ const links = [
     title: 'Medium',
     subtitle: '@Young-TW | 🏡 My Medium account',
     link: 'https://medium.com/@Young-TW',
-    bg: "/medium.jpeg",
+    bg: "/mylinks/medium.jpeg",
   },
 ];
 
