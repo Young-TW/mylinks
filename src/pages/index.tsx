@@ -4,7 +4,7 @@ import Music from './music';
 
 export default function Home() {
   return (
-    <main className="max-lg:bg-gradient-to-r bg-[url('/bg.jpg')]">
+    <main className="max-lg:bg-gradient-to-r bg-[url('/mylinks/bg.jpg')]">
       <div className="mx-auto h-fit p-4 font-mono">
         <div className="w-36 h-36 mx-auto">
           <Image
