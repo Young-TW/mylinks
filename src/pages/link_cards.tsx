@@ -3,13 +3,13 @@ import Image from "next/legacy/image";
 const links = [
   {
     title: 'Blog',
-    subtitle: 'My blog!',
+    subtitle: '🔗 My blog!',
     link: 'https://blog.young-tw.com',
     bg: "/mylinks/browser.png",
   },
   {
     title: 'GitHub',
-    subtitle: '@Young-TW | 🏡 to all my open-source projects',
+    subtitle: '@Young-TW | 📽️ All my open-source projects here',
     link: 'https://github.com/Young-TW',
     bg: "/mylinks/github.png",
   },
@@ -21,7 +21,7 @@ const links = [
   },
   {
     title: 'YouTube',
-    subtitle: '🏡 My YouTube channel!',
+    subtitle: '🎬 My YouTube channel!',
     link: 'https://www.youtube.com/channel/UCJC4x0CgeqsmdgX3W_cJB3A',
     bg: "/mylinks/youtube.png",
   },
@@ -51,7 +51,7 @@ const links = [
   },
   {
     title: 'Osu!',
-    subtitle: '@-Young- | 🏡 My Osu! profile',
+    subtitle: '@-Young- | 🎮 My Osu! profile',
     link: 'https://osu.ppy.sh/users/15561507',
     bg: "/mylinks/osu.jpeg",
   },
@@ -63,19 +63,19 @@ const links = [
   },
   {
     title: 'Links',
-    subtitle: '🏡 to all my social links',
+    subtitle: '🔗 to all my social links',
     link: 'https://blog.young-tw.com/mylinks/',
     bg: "/mylinks/link.jpg",
   },
   {
     title: 'Matrix Chat',
-    subtitle: '@-young-:matrix.org | 🏡 My Matrix.org account',
+    subtitle: '@-young-:matrix.org | 🏡 Come to chat with me!',
     link: '@-young-:matrix.org',
     bg: "/mylinks/element.png",
   },
   {
     title: 'Steam',
-    subtitle: '@youngtw | 🏡 My Steam account',
+    subtitle: '@youngtw | 🎮 My Steam account',
     link: 'https://steamcommunity.com/id/youngtw/',
     bg: "/mylinks/steam.jpeg",
   },
@@ -84,6 +84,30 @@ const links = [
     subtitle: '@Young-TW | 🏡 My Medium account',
     link: 'https://medium.com/@Young-TW',
     bg: "/mylinks/medium.jpeg",
+  },
+  {
+    title: 'Tellonym',
+    subtitle: '@Young-TW | ❔ Ask me some question',
+    link: 'https://tellonym.me/young_tw',
+    bg: "/mylinks/tellonym.png",
+  },
+  {
+    title: 'Reddit',
+    subtitle: '@Young-TW | 🏡 My Reddit account',
+    link: 'https://www.reddit.com/u/Young-TW/',
+    bg: "/mylinks/reddit.jpeg",
+  },
+  {
+    title: 'Paypal',
+    subtitle: '@YoungUwU | ☕ By me a cup of coffee',
+    link: 'https://www.paypal.me/YoungUwU',
+    bg: "/mylinks/paypal.jpeg",
+  },
+  {
+    title: 'Line',
+    subtitle: '🧵 My Line account',
+    link: 'https://line.me/ti/p/jV4QlwI1PO',
+    bg: "/mylinks/line.png",
   },
 ];
 
