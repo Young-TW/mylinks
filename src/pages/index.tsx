@@ -8,7 +8,7 @@ export default function Home() {
       <div className="mx-auto h-fit p-4 font-mono">
         <div className="w-36 h-36 mx-auto">
           <Image
-            src="/mylinks/Young.jpg"
+            src="/Young.jpg"
             alt="avator"
             width={144}
             height={144}
