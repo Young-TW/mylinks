@@ -64,7 +64,7 @@ const links = [
   {
     title: 'Links',
     subtitle: '🔗 to all my social links',
-    link: 'https://blog.young-tw.com/mylinks/',
+    link: 'https://link.young-tw.com/',
     bg: "/mylinks/link.jpg",
   },
   {
