@@ -70,7 +70,7 @@ const links = [
   {
     title: 'Matrix Chat',
     subtitle: '@-young-:matrix.org | 🏡 Come to chat with me!',
-    link: '@-young-:matrix.org',
+    link: 'https://matrix.to/#/@-young-:matrix.org',
     bg: "/element.png",
   },
   {
