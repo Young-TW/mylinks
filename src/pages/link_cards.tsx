@@ -22,7 +22,7 @@ const links = [
   {
     title: 'YouTube',
     subtitle: '🎬 My YouTube channel!',
-    link: 'https://www.youtube.com/channel/UCJC4x0CgeqsmdgX3W_cJB3A',
+    link: 'https://www.youtube.com/@young-tw',
     bg: "/youtube.png",
   },
   {
