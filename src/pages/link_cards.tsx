@@ -109,6 +109,18 @@ const links = [
     link: 'https://line.me/ti/p/jV4QlwI1PO',
     bg: "/line.png",
   },
+  {
+    title: 'Soundcould',
+    subtitle: '🎵 Listen to my favorite music!',
+    link: 'https://soundcloud.com/aeeq7mzofy9t',
+    bg: "/soundcloud.jpeg",
+  },
+  {
+    title: 'Twitch',
+    subtitle: '📺 My Twitch channel!',
+    link: 'https://www.twitch.tv/y0ungtw',
+    bg: "/twitch.jpeg",
+  },
 ];
 
 export default function Link_Cards() {
