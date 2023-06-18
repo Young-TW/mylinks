@@ -27,7 +27,7 @@ const links = [
   },
   {
     title: 'Discord',
-    subtitle: '@Young#6710 | 🏡 Join my Discord server!',
+    subtitle: '@young_tw | 🏡 Join my Discord server!',
     link: 'https://discord.gg/sJ4bX3AquY',
     bg: "/discord.jpeg",
   },
