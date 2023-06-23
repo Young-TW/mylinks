@@ -8,6 +8,12 @@ const links = [
     bg: "/browser.png",
   },
   {
+    title: 'Matrix Chat',
+    subtitle: '@-young-:matrix.org | 🏡 Come to chat with me!',
+    link: 'https://matrix.to/#/@-young-:matrix.org',
+    bg: "/element.png",
+  },
+  {
     title: 'GitHub',
     subtitle: '@Young-TW | 📽️ All my open-source projects here',
     link: 'https://github.com/Young-TW',
@@ -62,18 +68,6 @@ const links = [
     bg: "/facebook.png",
   },
   {
-    title: 'Links',
-    subtitle: '🔗 to all my social links',
-    link: 'https://link.young-tw.com/',
-    bg: "/link.jpg",
-  },
-  {
-    title: 'Matrix Chat',
-    subtitle: '@-young-:matrix.org | 🏡 Come to chat with me!',
-    link: 'https://matrix.to/#/@-young-:matrix.org',
-    bg: "/element.png",
-  },
-  {
     title: 'Steam',
     subtitle: '@youngtw | 🎮 My Steam account',
     link: 'https://steamcommunity.com/id/youngtw/',
@@ -102,12 +96,6 @@ const links = [
     subtitle: '@YoungUwU | ☕ By me a cup of coffee',
     link: 'https://www.paypal.me/YoungUwU',
     bg: "/paypal.jpeg",
-  },
-  {
-    title: 'Line',
-    subtitle: '🧵 My Line account',
-    link: 'https://line.me/ti/p/jV4QlwI1PO',
-    bg: "/line.png",
   },
   {
     title: 'Soundcould',
