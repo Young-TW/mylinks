@@ -80,18 +80,6 @@ const links = [
     bg: "/medium.jpeg",
   },
   {
-    title: 'Tellonym',
-    subtitle: '@Young-TW | ❔ Ask me some question',
-    link: 'https://tellonym.me/young_tw',
-    bg: "/tellonym.png",
-  },
-  {
-    title: 'Reddit',
-    subtitle: '@Young-TW | 🏡 My Reddit account',
-    link: 'https://www.reddit.com/u/Young-TW/',
-    bg: "/reddit.jpeg",
-  },
-  {
     title: 'Paypal',
     subtitle: '@YoungUwU | ☕ Buy me a cup of coffee',
     link: 'https://www.paypal.me/YoungUwU',
@@ -105,7 +93,7 @@ const links = [
   },
   {
     title: 'Twitch',
-    subtitle: '📺 My Twitch channel!',
+    subtitle: '@y0ungTW | 📺 My Twitch channel!',
     link: 'https://www.twitch.tv/y0ungtw',
     bg: "/twitch.jpeg",
   },
