@@ -93,7 +93,7 @@ const links = [
   },
   {
     title: 'Paypal',
-    subtitle: '@YoungUwU | ☕ By me a cup of coffee',
+    subtitle: '@YoungUwU | ☕ Buy me a cup of coffee',
     link: 'https://www.paypal.me/YoungUwU',
     bg: "/paypal.jpeg",
   },
