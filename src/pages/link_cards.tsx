@@ -8,10 +8,10 @@ const links = [
     bg: "/browser.png",
   },
   {
-    title: 'Matrix Chat',
+    title: 'Matrix',
     subtitle: '@-young-:matrix.org | 🏡 Come to chat with me!',
     link: 'https://matrix.to/#/@-young-:matrix.org',
-    bg: "/element.png",
+    bg: "/matrix.jpg",
   },
   {
     title: 'GitHub',
