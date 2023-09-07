@@ -1,5 +1,4 @@
-
-FROM node:18 as build-stage
+FROM node:lts
 
 WORKDIR /app
 
@@ -11,10 +10,6 @@ COPY . .
 
 RUN npm run build
 
-FROM nginx:latest
+EXPOSE 3000
 
-COPY --from=build-stage /app/.next /usr/share/nginx/html
-
-EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["npm", "start"]
