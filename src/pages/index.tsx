@@ -1,4 +1,5 @@
 import Link_Cards from './link_cards'
+import Link_Icons from './link_icons'
 import Image from "next/legacy/image";
 import Music from './music';
 
@@ -9,7 +10,7 @@ export default function Home() {
         <div className="w-36 h-36 mx-auto">
           <Image
             src="/Young.jpg"
-            alt="avator"
+            alt="avatar"
             width={144}
             height={144}
             className="rounded-full"
@@ -19,6 +20,9 @@ export default function Home() {
           Hi, I am Young. Here are some of my links.
         </p>
       </div>
+      {/* <div className="justify-center">
+        <Link_Icons />
+      </div> */}
       <div className="h-fit mx-6 flex justify-center">
         <Music />
       </div>
