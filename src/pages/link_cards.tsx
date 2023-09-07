@@ -97,6 +97,12 @@ const links = [
     link: 'https://www.twitch.tv/y0ungtw',
     bg: "/twitch.jpeg",
   },
+  {
+    title: 'Minecraft',
+    subtitle: '🔗 Join my Minecraft server!',
+    link: 'https://mc.young-tw.com',
+    bg: "/minecraft.jpg",
+  },
 ];
 
 export default function Link_Cards() {
