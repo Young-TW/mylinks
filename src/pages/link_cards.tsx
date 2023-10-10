@@ -14,6 +14,12 @@ const links = [
     bg: "/matrix.jpg",
   },
   {
+    title: 'Uptime Kuma',
+    subtitle: '📈 All of my websites uptime status',
+    link: 'http://status.young-tw.com:12345/status/public',
+    bg: "/uptimekuma.png",
+  },
+  {
     title: 'GitHub',
     subtitle: '@Young-TW | 📽️ All my open-source projects here',
     link: 'https://github.com/Young-TW',
