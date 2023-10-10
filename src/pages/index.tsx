@@ -1,5 +1,6 @@
 import Link_Cards from './link_cards'
 import Link_Icons from './link_icons'
+import Github_Stats from './github_stats';
 import Image from "next/legacy/image";
 import Music from './music';
 
@@ -29,6 +30,11 @@ export default function Home() {
       <div className="w-3/4 container mx-auto">
         <Link_Cards />
       </div>
+      {/*
+      <div className="h-fit flex justify-center">
+        <Github_Stats />
+      </div>
+      */}
     </main>
   )
 }
