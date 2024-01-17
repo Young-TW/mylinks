@@ -9,7 +9,7 @@ const links = [
   {
     title: 'Matrix',
     link: 'https://matrix.to/#/@-young-:matrix.org',
-    logo: "/matrix.jpg",
+    logo: "/logo/element.png",
   },
   {
     title: 'Uptime Kuma',
@@ -24,7 +24,7 @@ const links = [
   {
     title: 'Mastodon',
     link: 'https://mastodon.social/@young_tw',
-    logo: "/mastodon.jpg",
+    logo: "/logo/round/mastodon.png",
   },
   {
     title: 'YouTube',
@@ -34,7 +34,7 @@ const links = [
   {
     title: 'Discord',
     link: 'https://discord.gg/sJ4bX3AquY',
-    logo: "/logo/discord.png",
+    logo: "/logo/round/discord.png",
   },
   {
     title: 'Instagram',
@@ -54,7 +54,7 @@ const links = [
   {
     title: 'Osu!',
     link: 'https://osu.ppy.sh/users/15561507',
-    logo: "/osu.jpeg",
+    logo: "/logo/round/osu.png",
   },
   {
     title: 'Facebook',
@@ -64,7 +64,7 @@ const links = [
   {
     title: 'Steam',
     link: 'https://steamcommunity.com/id/youngtw/',
-    logo: "/steam.jpeg",
+    logo: "/logo/round/steam.png",
   },
   {
     title: 'Medium',
@@ -89,7 +89,7 @@ const links = [
   {
     title: 'Minecraft',
     link: 'https://mc.young-tw.com',
-    logo: "/minecraft.jpg",
+    logo: "/logo/minecraft.jpg",
   },
 ];
 
