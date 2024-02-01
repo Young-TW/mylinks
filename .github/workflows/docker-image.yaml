@@ -18,5 +18,5 @@ jobs:
 
     - name: Build and Push Docker Image
       run: |
-        docker build -t youngtw/link:latest .
-        docker push youngtw/link:latest
+        docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/link:latest .
+        docker push ${{ secrets.DOCKERHUB_USERNAME }}/link:latest
