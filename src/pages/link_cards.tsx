@@ -111,7 +111,7 @@ const links = [
   },
 ];
 
-export default function Link_Cards() {
+export default function LinkCards() {
   return (
     <div className="flex flex-wrap">
       {links.map((p) => {

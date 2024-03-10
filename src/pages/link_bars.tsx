@@ -93,7 +93,7 @@ const links = [
   },
 ];
 
-export default function Link_Bars() {
+export default function LinkBars() {
   return (
     <div>
       {links.map((p) => {

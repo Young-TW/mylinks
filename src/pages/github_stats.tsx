@@ -1,7 +1,7 @@
 import autoprefixer from "autoprefixer"
 import Image from "next/image"
 
-export default function Github_Stats() {
+export default function GithubStats() {
     return (
       <div className="flex flex-wrap w-3/4 justify-center">
         {/*

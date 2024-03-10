@@ -11,7 +11,7 @@ const links = [
   },
 ];
 
-export default function Link_Icons() {
+export default function LinkIcons() {
   return (
     <div className="flex flex-wrap">
       {links.map((p) => {

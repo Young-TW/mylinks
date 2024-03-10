@@ -23,17 +23,17 @@ export default function V1() {
         </p>
       </div>
       {/* <div className="justify-center">
-        <Link_Icons />
+        <LinkIcons />
       </div> */}
       <div className="h-fit mx-6 flex justify-center">
         <Music />
       </div>
       <div className="w-3/4 container mx-auto">
-        <Link_Cards />
+        <LinkCards />
       </div>
       {/*
       <div className="h-fit flex justify-center">
-        <Github_Stats />
+        <GithubStats />
       </div>
       */}
     </main>

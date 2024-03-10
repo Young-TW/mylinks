@@ -26,7 +26,7 @@ export default function V2() {
         <Music />
       </div>
       <div className="w-3/4 container mx-auto">
-        <Link_Bars />
+        <LinkBars />
       </div>
     </main>
   )
