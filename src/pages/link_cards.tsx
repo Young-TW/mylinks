@@ -21,14 +21,20 @@ const links = [
   },
   {
     title: 'GitHub',
-    subtitle: '@Young-TW | 📽️ All my open-source projects here',
+    subtitle: '@Young-TW | 📽️ All my open-sourced projects here',
     link: 'https://github.com/Young-TW',
     bg: "/github.png",
   },
   {
-    title: 'Mastodon',
-    subtitle: '@young_tw | 🏡 My Mastodon account',
+    title: 'Mastodon.social',
+    subtitle: '@young_tw | 🏡 My Mastodon.social account',
     link: 'https://mastodon.social/@young_tw',
+    bg: "/mastodon.jpg",
+  },
+  {
+    title: 'g0v.social',
+    subtitle: '@young | 🏡 My g0v Mastodon account',
+    link: 'https://g0v.social/@young',
     bg: "/mastodon.jpg",
   },
   {
@@ -44,22 +50,10 @@ const links = [
     bg: "/discord.jpeg",
   },
   {
-    title: 'Instagram',
-    subtitle: '@young__tw | 🏡 My Instagram account',
-    link: 'https://www.instagram.com/young__tw/',
-    bg: "/instagram.png",
-  },
-  {
     title: 'Telegram',
     subtitle: '@young_tw | 🏡 My Telegram account',
-    link: 'https://telegram.me/young_tw',
+    link: 'https://t.me/young_tw',
     bg: "/telegram.png",
-  },
-  {
-    title: 'Twitter',
-    subtitle: '@Young___TW | 🏡 My Twitter account',
-    link: 'https://twitter.com/Young___TW',
-    bg: "/twitter.png",
   },
   {
     title: 'Osu!',
@@ -68,46 +62,10 @@ const links = [
     bg: "/osu.jpeg",
   },
   {
-    title: 'Facebook',
-    subtitle: '🏡 My Facebook account',
-    link: 'https://www.facebook.com/young20050727',
-    bg: "/facebook.png",
-  },
-  {
     title: 'Steam',
     subtitle: '@youngtw | 🎮 My Steam account',
     link: 'https://steamcommunity.com/id/youngtw/',
     bg: "/steam.jpeg",
-  },
-  {
-    title: 'Medium',
-    subtitle: '@Young-TW | 🏡 My Medium account',
-    link: 'https://medium.com/@Young-TW',
-    bg: "/medium.jpeg",
-  },
-  {
-    title: 'Paypal',
-    subtitle: '@YoungUwU | ☕ Buy me a cup of coffee',
-    link: 'https://www.paypal.me/YoungUwU',
-    bg: "/paypal.jpeg",
-  },
-  {
-    title: 'Soundcould',
-    subtitle: '🎵 Listen to my favorite music!',
-    link: 'https://soundcloud.com/aeeq7mzofy9t',
-    bg: "/soundcloud.jpeg",
-  },
-  {
-    title: 'Twitch',
-    subtitle: '@y0ungTW | 📺 My Twitch channel!',
-    link: 'https://www.twitch.tv/y0ungtw',
-    bg: "/twitch.jpeg",
-  },
-  {
-    title: 'Minecraft',
-    subtitle: '🔗 Join my Minecraft server!',
-    link: 'https://mc.young-tw.com',
-    bg: "/minecraft.jpg",
   },
 ];
 
