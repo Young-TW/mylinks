@@ -82,6 +82,11 @@ const links = [
     logo: "/logo/round/soundcloud.png",
   },
   {
+    title: 'Bandcamp',
+    link: 'https://bandcamp.com/youngtw',
+    logo: "/logo/round/bandcamp.png",
+  },
+  {
     title: 'Twitch',
     link: 'https://www.twitch.tv/y0ungtw',
     logo: "/logo/round/twitch.png",
