@@ -44,12 +44,6 @@ const links = [
     bg: "/youtube.png",
   },
   {
-    title: 'Discord',
-    subtitle: '@young_tw | 🏡 Join my Discord server!',
-    link: 'https://discord.gg/sJ4bX3AquY',
-    bg: "/discord.jpeg",
-  },
-  {
     title: 'Telegram',
     subtitle: '@young_tw | 🏡 DM with me',
     link: 'https://t.me/young_tw',
