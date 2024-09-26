@@ -1,8 +1,6 @@
 import Image from "next/legacy/image";
 
 import LinkBars from './link_bars'
-import LinkIcons from './link_icons'
-import GithubStats from './github_stats';
 import Music from './music';
 
 export default function V2() {
