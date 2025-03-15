@@ -47,14 +47,19 @@ const links = [
     logo: "/logo/round/telegram.png",
   },
   {
-    title: 'Twitter',
+    title: 'X',
     link: 'https://twitter.com/Young___TW',
     logo: "/logo/round/x.png",
   },
   {
-    title: 'Osu!',
+    title: 'osu!',
     link: 'https://osu.ppy.sh/users/15561507',
     logo: "/logo/round/osu.png",
+  },
+  {
+    title: 'Quaver',
+    link: 'https://quavergame.com/user/236859',
+    logo: "/logo/quaver.png"
   },
   {
     title: 'Facebook',
