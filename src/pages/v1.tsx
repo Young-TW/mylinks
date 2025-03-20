@@ -2,7 +2,6 @@ import Image from "next/legacy/image";
 
 import LinkCards from "./link_cards";
 import Music from "./music";
-import OsuCard from "./osu_card";
 
 export default function V1() {
   return (
