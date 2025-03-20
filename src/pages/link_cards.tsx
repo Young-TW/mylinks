@@ -1,4 +1,5 @@
 import Image from "next/legacy/image";
+import OsuCard from "./osu_card";
 
 const links = [
   {
@@ -50,12 +51,6 @@ const links = [
     bg: "/telegram.png",
   },
   {
-    title: "osu!",
-    subtitle: "@-Young- | 🎮 My osu! profile",
-    link: "https://osu.ppy.sh/users/15561507",
-    bg: "/osu.jpeg",
-  },
-  {
     title: "Quaver",
     subtitle: "@young0727 | 🎮 My Quaver profile",
     link: "https://quavergame.com/user/236859",
@@ -78,6 +73,7 @@ const links = [
 export default function LinkCards() {
   return (
     <div className="flex flex-wrap">
+      <OsuCard />
       {links.map((p) => {
         return (
           <div
