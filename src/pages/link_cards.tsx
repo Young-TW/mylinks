@@ -1,5 +1,6 @@
 import Image from "next/legacy/image";
 import OsuCard from "./osu_card";
+import { github_stats } from "./github_card";
 
 const links = [
   {
@@ -20,12 +21,12 @@ const links = [
     link: "http://status.young-tw.com:12345/status/public",
     bg: "/uptimekuma.png",
   },
-  {
+  /* {
     title: "GitHub",
     subtitle: "@Young-TW | 📽️ All my open-sourced projects here",
     link: "https://github.youngtw.net",
     bg: "/github.png",
-  },
+  }, */
   {
     title: "Mastodon.social",
     subtitle: "@young_tw | 🏡 My Mastodon.social account",
@@ -74,6 +75,23 @@ export default function LinkCards() {
   return (
     <div className="flex flex-wrap">
       <OsuCard />
+      {github_stats.map((p) => {
+          return (
+            <div
+              className="h-48 w-64 mt-6 rounded-lg mx-auto hover:animate-pulse"
+              key={p.alt}
+            >
+              <Image
+                src={p.src}
+                height={p.height}
+                width={p.width}
+                objectFit="cover"
+                alt={p.alt}
+                className="rounded-lg"
+              />
+            </div>
+          )
+        })}
       {links.map((p) => {
         return (
           <div

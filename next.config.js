@@ -1,6 +1,29 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    dangerouslyAllowSVG: true, // Enable SVG support
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'github-readme-stats.vercel.app',
+        port: '',
+        pathname: '/**'
+      },
+      {
+        protocol: 'https',
+        hostname: 'streak-stats.demolab.com',
+        port: '',
+        pathname: '/**'
+      },
+      {
+        protocol: 'https',
+        hostname: 'github-readme-activity-graph.vercel.app',
+        port: '',
+        pathname: '/**'
+      }
+    ]
+  }
 };
 
 module.exports = nextConfig;
