@@ -76,22 +76,22 @@ export default function LinkCards() {
     <div className="flex flex-wrap">
       <OsuCard />
       {github_stats.map((p) => {
-          return (
-            <div
-              className="h-48 w-64 mt-6 rounded-lg mx-auto hover:animate-pulse"
-              key={p.alt}
-            >
-              <Image
-                src={p.src}
-                height={p.height}
-                width={p.width}
-                objectFit="cover"
-                alt={p.alt}
-                className="rounded-lg"
-              />
-            </div>
-          )
-        })}
+        return (
+          <div
+            className="h-48 w-64 mt-6 rounded-lg mx-auto flex justify-center items-center hover:animate-pulse"
+            key={p.alt}
+          >
+            <Image
+              src={p.src}
+              height={p.height}
+              width={p.width}
+              objectFit="cover"
+              alt={p.alt}
+              className="rounded-lg"
+            />
+          </div>
+        );
+      })}
       {links.map((p) => {
         return (
           <div

@@ -13,13 +13,13 @@ export const github_stats = [
   },
   {
     alt: "github stats",
-    src: "https://streak-stats.demolab.com?user=Young-TW&theme=github-dark&background=0000&hide_border=true&card_width=256",
+    src: "https://streak-stats.demolab.com?user=Young-TW&theme=github-dark&background=000000&hide_border=true&card_width=256",
     width: 256,
     height: 128,
   },
   {
     alt: "github stats",
-    src: "https://github-readme-activity-graph.vercel.app/graph?username=Young-TW&theme=github-compact&hide_border=true",
+    src: "https://github-readme-activity-graph.vercel.app/graph?username=Young-TW&theme=github-compact&hide_border=true&bg_color=000000",
     width: 256,
     height: 96,
   },
