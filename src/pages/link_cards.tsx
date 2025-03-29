@@ -81,14 +81,19 @@ export default function LinkCards() {
             className="h-48 w-64 mt-6 rounded-lg mx-auto flex justify-center items-center hover:animate-pulse"
             key={p.alt}
           >
-            <Image
-              src={p.src}
-              height={p.height}
-              width={p.width}
-              objectFit="cover"
-              alt={p.alt}
-              className="rounded-lg"
-            />
+            <a
+              href="https://github.youngtw.net"
+              title="GitHub"
+            >
+              <Image
+                src={p.src}
+                height={p.height}
+                width={p.width}
+                objectFit="cover"
+                alt={p.alt}
+                className="rounded-lg"
+              />
+            </a>
           </div>
         );
       })}
