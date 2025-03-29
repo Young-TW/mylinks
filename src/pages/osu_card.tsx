@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function OsuCard() {
   return (
     <div className="h-48 w-64 mt-6 rounded-lg mx-auto hover:animate-pulse">
@@ -6,7 +8,7 @@ export default function OsuCard() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img
+        <Image
           src="https://osu-sig.vercel.app/card?user=-Young-&mode=std&lang=en&animation=false&w=256&h=192"
           alt="Osu! profile card"
           width="256"

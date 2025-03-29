@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    dangerouslyAllowSVG: true, // Enable SVG support
+    dangerouslyAllowSVG: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -19,6 +19,12 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'github-readme-activity-graph.vercel.app',
+        port: '',
+        pathname: '/**'
+      },
+      {
+        protocol: 'https',
+        hostname: 'osu-sig.vercel.app',
         port: '',
         pathname: '/**'
       }
