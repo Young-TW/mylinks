@@ -1,7 +1,7 @@
 import Image from "next/legacy/image";
 import OsuCard from "./osu_card";
 import { github_stats } from "../data/github_card";
-import { links } from "../data/links";
+import { link_cards } from "../data/links";
 
 export default function LinkCards() {
   return (
@@ -13,10 +13,7 @@ export default function LinkCards() {
             className="h-48 w-64 mt-6 rounded-lg mx-auto flex justify-center items-center hover:animate-pulse"
             key={p.alt}
           >
-            <a
-              href="https://github.youngtw.net"
-              title="GitHub"
-            >
+            <a href="https://github.youngtw.net" title="GitHub">
               <Image
                 src={p.src}
                 height={p.height}
@@ -29,7 +26,7 @@ export default function LinkCards() {
           </div>
         );
       })}
-      {links.map((p) => {
+      {link_cards.map((p) => {
         return (
           <div
             className="h-48 w-64 mt-6 rounded-lg mx-auto hover:animate-pulse"

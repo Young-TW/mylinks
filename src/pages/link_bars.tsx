@@ -1,102 +1,11 @@
 import Image from "next/legacy/image";
 
-const links = [
-  {
-    title: "Blog",
-    link: "https://blog.young-tw.com",
-    logo: "/logo/round/Web.png",
-  },
-  {
-    title: "Matrix",
-    link: "https://matrix.to/#/@-young-:matrix.org",
-    logo: "/logo/element.png",
-  },
-  {
-    title: "Uptime Kuma",
-    link: "http://status.young-tw.com:12345/status/public",
-    logo: "/uptimekuma.png",
-  },
-  {
-    title: "Mastodon",
-    link: "https://mastodon.social/@young_tw",
-    logo: "/logo/round/mastodon.png",
-  },
-  {
-    title: "YouTube",
-    link: "https://www.youtube.com/@young-tw",
-    logo: "/logo/round/youtube.png",
-  },
-  {
-    title: "Discord",
-    link: "https://discord.gg/sJ4bX3AquY",
-    logo: "/logo/round/discord.png",
-  },
-  {
-    title: "Instagram",
-    link: "https://www.instagram.com/young__tw/",
-    logo: "/logo/round/instagram.png",
-  },
-  {
-    title: "Telegram",
-    link: "https://telegram.me/young_tw",
-    logo: "/logo/round/telegram.png",
-  },
-  {
-    title: "X",
-    link: "https://twitter.com/Young___TW",
-    logo: "/logo/round/x.png",
-  },
-  {
-    title: "Quaver",
-    link: "https://quavergame.com/user/236859",
-    logo: "/logo/quaver.png",
-  },
-  {
-    title: "Facebook",
-    link: "https://www.facebook.com/young20050727",
-    logo: "/logo/round/facebook.png",
-  },
-  {
-    title: "Steam",
-    link: "https://steamcommunity.com/id/youngtw/",
-    logo: "/logo/round/steam.png",
-  },
-  {
-    title: "Medium",
-    link: "https://medium.com/@Young-TW",
-    logo: "/logo/round/medium.png",
-  },
-  {
-    title: "Paypal",
-    link: "https://www.paypal.me/YoungUwU",
-    logo: "/logo/round/paypal.png",
-  },
-  {
-    title: "Soundcould",
-    link: "https://soundcloud.com/aeeq7mzofy9t",
-    logo: "/logo/round/soundcloud.png",
-  },
-  {
-    title: "Bandcamp",
-    link: "https://bandcamp.com/youngtw",
-    logo: "/logo/round/bandcamp.png",
-  },
-  {
-    title: "Twitch",
-    link: "https://www.twitch.tv/y0ungtw",
-    logo: "/logo/round/twitch.png",
-  },
-  {
-    title: "Minecraft",
-    link: "https://mc.young-tw.com",
-    logo: "/logo/minecraft.jpg",
-  },
-];
+import { link_bars } from "../data/links";
 
 export default function LinkBars() {
   return (
     <div>
-      {links.map((p) => {
+      {link_bars.map((p) => {
         return (
           <div
             className="h-12 w-96 mt-4 rounded-full mx-auto bg-slate-800 "
