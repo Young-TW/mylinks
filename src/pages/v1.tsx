@@ -29,11 +29,6 @@ export default function V1() {
       <div className="w-3/4 container mx-auto">
         <LinkCards />
       </div>
-      {/*
-      <div className="h-fit flex justify-center">
-        <GithubStats />
-      </div>
-      */}
     </main>
   );
 }
