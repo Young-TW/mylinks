@@ -42,12 +42,6 @@ export const link_cards = [
     bg: "/telegram.png",
   },
   {
-    title: "Quaver",
-    subtitle: "@young0727 | 🎮 My Quaver profile",
-    link: "https://quavergame.com/user/236859",
-    bg: "/quaver.jpg",
-  },
-  {
     title: "Bandcamp",
     subtitle: "@youngtw | 🎵 Come to find out my favorite music",
     link: "https://bandcamp.com/youngtw",

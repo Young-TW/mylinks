@@ -27,7 +27,13 @@ const nextConfig = {
         hostname: 'osu-sig.vercel.app',
         port: '',
         pathname: '/**'
-      }
+      },
+      {
+        protocol: 'https',
+        hostname: 'quaver.young-tw.com',
+        port: '',
+        pathname: '/**'
+      },
     ]
   }
 };

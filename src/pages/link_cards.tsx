@@ -2,11 +2,13 @@ import Image from "next/legacy/image";
 import OsuCard from "./osu_card";
 import { github_stats } from "../data/github_card";
 import { link_cards } from "../data/links";
+import QuaverCard from "./quaver_card";
 
 export default function LinkCards() {
   return (
     <div className="flex flex-wrap">
       <OsuCard />
+      <QuaverCard />
       {github_stats.map((p) => {
         return (
           <div
