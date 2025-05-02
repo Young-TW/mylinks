@@ -4,7 +4,7 @@ export default function QuaverCard() {
   return (
     <div className="h-48 w-64 mt-6 rounded-lg mx-auto hover:animate-pulse ">
       <a
-        href="quavergame.com/user/236859"
+        href="https://quavergame.com/user/236859"
         target="_blank"
         rel="noopener noreferrer"
       >
