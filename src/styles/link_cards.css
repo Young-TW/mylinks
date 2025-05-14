@@ -1,3 +1,9 @@
+.linkcard,
+.linkcard-title,
+.linkcard-subtitle {
+  font-family: 'JetBrains Mono', monospace;
+}
+
 .linkcards-flex {
   display: flex;
   flex-wrap: wrap;
@@ -69,4 +75,21 @@
   padding-left: 1rem;
   padding-right: 1rem;
   margin: 0.25rem 0 0 0;
+}
+
+.linkcard a {
+  color: white;
+  text-decoration: none;
+}
+
+.linkcard a:visited,
+.linkcard a:active,
+.linkcard a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.linkcard-title,
+.linkcard-subtitle {
+  color: white;
 }
