@@ -48,6 +48,7 @@
 .linkcard-info {
   height: 50%;
   border-radius: 0.5rem;
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   opacity: 0.9;
   background-color: #334155;
