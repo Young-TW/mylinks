@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-bg {
+  background-image: url('/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 2rem;
+}
+
+.main-container {
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  padding: 1rem;
+  font-family: monospace;
+}
+
+.avatar-wrapper {
+  width: 9rem;
+  height: 9rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar-img {
+  border-radius: 9999px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.intro-text {
+  color: white;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.music-wrapper {
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.music-wrapper:hover {
+  animation: pulse 1s;
+}
+
+.linkcards-wrapper {
+  width: 75%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (orientation: portrait) {
+  .main-bg {
+    background-image: none;
+    background-color: #000;
+  }
+}

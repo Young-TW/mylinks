@@ -1,62 +1,52 @@
-import Image from "next/legacy/image";
 import OsuCard from "./osu_card";
 import { github_stats } from "../data/github_card";
 import { link_cards } from "../data/links";
 import QuaverCard from "./quaver_card";
+import "../styles/link_cards.css";
 
 export default function LinkCards() {
   return (
-    <div className="flex flex-wrap">
+    <div class="linkcards-flex">
       <OsuCard />
       <QuaverCard />
-      {github_stats.map((p) => {
-        return (
-          <div
-            className="h-48 w-64 mt-6 rounded-lg mx-auto flex justify-center items-center hover:animate-pulse"
-            key={p.alt}
-          >
-            <a href="https://github.youngtw.net" title="GitHub">
-              <Image
-                src={p.src}
-                height={p.height}
-                width={p.width}
-                objectFit="cover"
-                alt={p.alt}
-                className="rounded-lg"
+      {github_stats.map((p) => (
+        <div
+          class="linkcard github-card"
+          key={p.alt}
+        >
+          <a href="https://github.youngtw.net" title="GitHub">
+            <img
+              src={p.src}
+              height={p.height}
+              width={p.width}
+              alt={p.alt}
+              class="linkcard-img"
+            />
+          </a>
+        </div>
+      ))}
+      {link_cards.map((p) => (
+        <div
+          class="linkcard"
+          key={p.title}
+        >
+          <a href={p.link}>
+            <div class="linkcard-img-wrapper">
+              <img
+                src={p.bg}
+                alt={p.title}
+                class="linkcard-img"
               />
-            </a>
-          </div>
-        );
-      })}
-      {link_cards.map((p) => {
-        return (
-          <div
-            className="h-48 w-64 mt-6 rounded-lg mx-auto hover:animate-pulse"
-            key={p.title}
-          >
-            <a href={p.link}>
-              <div
-                className="w-fit h-1/2 rounded-lg"
-                style={{ width: "100%", height: "50%", position: "relative" }}
-              >
-                <Image
-                  src={p.bg}
-                  layout="fill"
-                  objectFit="cover"
-                  alt={p.title}
-                  className="rounded-lg"
-                />
-              </div>
-              <div className="h-1/2 rounded-lg backdrop-blur-lg opacity-90 bg-slate-600">
-                <h3 className="notosans text-center text-lg h-fit">
-                  {p.title}
-                </h3>
-                <p className="text-sm px-4">{p.subtitle}</p>
-              </div>
-            </a>
-          </div>
-        );
-      })}
+            </div>
+            <div class="linkcard-info">
+              <h3 class="linkcard-title">
+                {p.title}
+              </h3>
+              <p class="linkcard-subtitle">{p.subtitle}</p>
+            </div>
+          </a>
+        </div>
+      ))}
     </div>
   );
 }

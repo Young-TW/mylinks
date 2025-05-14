@@ -1,14 +1,14 @@
-import Image from "next/image";
+import "../styles/osu_card.css";
 
 export default function OsuCard() {
   return (
-    <div className="h-48 w-64 mt-6 rounded-lg mx-auto hover:animate-pulse">
+    <div class="osu-card">
       <a
         href="https://osu.ppy.sh/u/-Young-"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image
+        <img
           src="https://osu-sig.vercel.app/card?user=-Young-&mode=std&lang=en&animation=false&w=256&h=192"
           alt="Osu! profile card"
           width="256"
