@@ -61,3 +61,10 @@ html, body {
   margin-left: auto;
   margin-right: auto;
 }
+
+@media (orientation: portrait) {
+  .main-bg {
+    background-image: none;
+    background-color: #000;
+  }
+}
