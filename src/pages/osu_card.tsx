@@ -1,6 +1,8 @@
+import "../styles/osu_card.css";
+
 export default function OsuCard() {
   return (
-    <div className="h-48 w-64 mt-6 rounded-lg mx-auto hover:animate-pulse">
+    <div class="osu-card">
       <a
         href="https://osu.ppy.sh/u/-Young-"
         target="_blank"

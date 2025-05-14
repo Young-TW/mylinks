@@ -39,10 +39,14 @@
 
 .music-wrapper {
   height: fit-content;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   justify-content: center;
+}
+
+.music-wrapper:hover {
+  animation: pulse 1s;
 }
 
 .linkcards-wrapper {
