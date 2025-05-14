@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function QuaverCard() {
   return (
     <div className="h-48 w-64 mt-6 rounded-lg mx-auto hover:animate-pulse ">
@@ -8,7 +6,7 @@ export default function QuaverCard() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image
+        <img
           src="https://quaver.young-tw.com/card/young0727"
           alt="Quaver profile card"
           width="256"

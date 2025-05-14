@@ -1,0 +1,52 @@
+.main-bg {
+  background-image: url('/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 2rem;
+}
+
+.main-container {
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  padding: 1rem;
+  font-family: monospace;
+}
+
+.avatar-wrapper {
+  width: 9rem;
+  height: 9rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar-img {
+  border-radius: 9999px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+.music-wrapper {
+  height: fit-content;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.linkcards-wrapper {
+  width: 75%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
