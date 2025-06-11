@@ -2,13 +2,13 @@ export const link_cards = [
   {
     title: "Blog",
     subtitle: "🔗 My blog!",
-    link: "https://blog.young-tw.com",
+    link: "https://blog.youn.gg",
     bg: "/browser.png",
   },
   {
     title: "Matrix",
     subtitle: "@-young-:matrix.org | 🏡 Come to chat with me!",
-    link: "https://matrix.youngtw.net",
+    link: "https://matrix.youn.gg",
     bg: "/matrix.jpg",
   },
   {
@@ -20,13 +20,13 @@ export const link_cards = [
   {
     title: "Mastodon.social",
     subtitle: "@young_tw | 🏡 My Mastodon.social account",
-    link: "https://mastodon.youngtw.net",
+    link: "https://mastodon.youn.gg",
     bg: "/mastodon.jpg",
   },
   {
     title: "g0v.social",
     subtitle: "@young | 🏡 My Taiwanese g0v Mastodon account",
-    link: "https://g0v.youngtw.net",
+    link: "https://g0v.youn.gg",
     bg: "/mastodon.jpg",
   },
   {
@@ -38,7 +38,7 @@ export const link_cards = [
   {
     title: "Telegram",
     subtitle: "@young_tw | 🏡 DM with me",
-    link: "https://telegram.youngtw.net",
+    link: "https://telegram.youn.gg",
     bg: "/telegram.png",
   },
   {
@@ -58,7 +58,7 @@ export const link_cards = [
 export const link_bars = [
   {
     title: "Blog",
-    link: "https://blog.young-tw.com",
+    link: "https://blog.youn.gg",
     logo: "/logo/round/Web.png",
   },
   {
