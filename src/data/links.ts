@@ -143,18 +143,18 @@ export const link_bars = [
   },
   {
     title: "Minecraft",
-    link: "https://mc.young-tw.com",
+    link: "https://mc.youn.gg",
     logo: "/logo/minecraft.jpg",
   },
 ];
 
 export const link_icons = [
   {
-    link: "https://blog.young-tw.com",
+    link: "https://blog.youn.gg",
     icon: "/icon/blog.png",
   },
   {
-    link: "https://mc.young-tw.com",
+    link: "https://mc.youn.gg",
     icon: "/icon/minecraft-creeper.png",
   },
 ];
