@@ -14,7 +14,7 @@ export default function LinkCards() {
           class="linkcard github-card"
           key={p.alt}
         >
-          <a href="https://github.youngtw.net" title="GitHub">
+          <a href="https://github.youn.gg" title="GitHub">
             <img
               src={p.src}
               height={p.height}
