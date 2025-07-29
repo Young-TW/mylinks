@@ -2,13 +2,13 @@ export const link_cards = [
   {
     title: "Blog",
     subtitle: "🔗 My blog!",
-    link: "https://blog.young-tw.com",
+    link: "https://blog.youn.gg",
     bg: "/browser.png",
   },
   {
     title: "Matrix",
     subtitle: "@-young-:matrix.org | 🏡 Come to chat with me!",
-    link: "https://matrix.youngtw.net",
+    link: "https://matrix.youn.gg",
     bg: "/matrix.jpg",
   },
   {
@@ -20,13 +20,13 @@ export const link_cards = [
   {
     title: "Mastodon.social",
     subtitle: "@young_tw | 🏡 My Mastodon.social account",
-    link: "https://mastodon.youngtw.net",
+    link: "https://mastodon.youn.gg",
     bg: "/mastodon.jpg",
   },
   {
     title: "g0v.social",
     subtitle: "@young | 🏡 My Taiwanese g0v Mastodon account",
-    link: "https://g0v.youngtw.net",
+    link: "https://g0v.youn.gg",
     bg: "/mastodon.jpg",
   },
   {
@@ -38,7 +38,7 @@ export const link_cards = [
   {
     title: "Telegram",
     subtitle: "@young_tw | 🏡 DM with me",
-    link: "https://telegram.youngtw.net",
+    link: "https://telegram.youn.gg",
     bg: "/telegram.png",
   },
   {
@@ -58,12 +58,12 @@ export const link_cards = [
 export const link_bars = [
   {
     title: "Blog",
-    link: "https://blog.young-tw.com",
+    link: "https://blog.youn.gg",
     logo: "/logo/round/Web.png",
   },
   {
     title: "Matrix",
-    link: "https://matrix.to/#/@-young-:matrix.org",
+    link: "https://matrix.youn.gg",
     logo: "/logo/element.png",
   },
   {
@@ -73,7 +73,7 @@ export const link_bars = [
   },
   {
     title: "Mastodon",
-    link: "https://mastodon.social/@young_tw",
+    link: "https://mastodon.youn.gg",
     logo: "/logo/round/mastodon.png",
   },
   {
@@ -82,34 +82,19 @@ export const link_bars = [
     logo: "/logo/round/youtube.png",
   },
   {
-    title: "Discord",
-    link: "https://discord.gg/sJ4bX3AquY",
-    logo: "/logo/round/discord.png",
-  },
-  {
-    title: "Instagram",
-    link: "https://www.instagram.com/young__tw/",
-    logo: "/logo/round/instagram.png",
-  },
-  {
     title: "Telegram",
     link: "https://telegram.me/young_tw",
     logo: "/logo/round/telegram.png",
   },
   {
     title: "X",
-    link: "https://twitter.com/Young___TW",
+    link: "https://x.com/Young___TW",
     logo: "/logo/round/x.png",
   },
   {
     title: "Quaver",
     link: "https://quavergame.com/user/236859",
     logo: "/logo/quaver.png",
-  },
-  {
-    title: "Facebook",
-    link: "https://www.facebook.com/young20050727",
-    logo: "/logo/round/facebook.png",
   },
   {
     title: "Steam",
@@ -143,18 +128,18 @@ export const link_bars = [
   },
   {
     title: "Minecraft",
-    link: "https://mc.young-tw.com",
+    link: "https://mc.youn.gg",
     logo: "/logo/minecraft.jpg",
   },
 ];
 
 export const link_icons = [
   {
-    link: "https://blog.young-tw.com",
+    link: "https://blog.youn.gg",
     icon: "/icon/blog.png",
   },
   {
-    link: "https://mc.young-tw.com",
+    link: "https://mc.youn.gg",
     icon: "/icon/minecraft-creeper.png",
   },
 ];
