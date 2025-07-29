@@ -7,7 +7,7 @@ export const github_stats = [
   },
   {
     alt: "github stats",
-    src: "https://github-readme-stats.vercel.app/api/top-langs/?username=Young-TW&title_color=39d353&bg_color=000000ff&text_color=ffffff&layout=compact&hide_border=true&card_width=256&langs_count=6",
+    src: "https://github-readme-stats.vercel.app/api/top-langs/?username=Young-TW&title_color=39d353&bg_color=000000ff&text_color=ffffff&layout=compact&hide_border=true&card_width=256&langs_count=8",
     width: 256,
     height: 128,
   },

@@ -1,0 +1,13 @@
+.github-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem; /* 可選，卡片之間的間距 */
+  flex-wrap: wrap; /* 可選，卡片太多時自動換行 */
+  justify-content: center; /* 可選，卡片在容器中居中 */
+  background-color: black;
+  border-radius: 0.5rem;
+}
+
+.github-cards:hover {
+  animation: pulse 1s;
+}

@@ -1,5 +1,5 @@
 import OsuCard from "./osu_card";
-import { github_stats } from "../data/github_card";
+import GithubCard from "./github_card";
 import { link_cards } from "../data/links";
 import QuaverCard from "./quaver_card";
 import "../styles/link_cards.css";
@@ -9,22 +9,7 @@ export default function LinkCards() {
     <div class="linkcards-flex">
       <OsuCard />
       <QuaverCard />
-      {github_stats.map((p) => (
-        <div
-          class="linkcard github-card"
-          key={p.alt}
-        >
-          <a href="https://github.youngtw.net" title="GitHub">
-            <img
-              src={p.src}
-              height={p.height}
-              width={p.width}
-              alt={p.alt}
-              class="linkcard-img"
-            />
-          </a>
-        </div>
-      ))}
+      <GithubCard />
       {link_cards.map((p) => (
         <div
           class="linkcard"
