@@ -7,7 +7,3 @@
   background-color: black;
   border-radius: 0.5rem;
 }
-
-.github-cards:hover {
-  animation: pulse 1s;
-}

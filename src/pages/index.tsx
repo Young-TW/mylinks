@@ -19,12 +19,6 @@ export default function Home() {
           Hi, I am Young. Here are some of my links.
         </p>
       </div>
-      {/* <div class="justify-center">
-        <LinkIcons />
-      </div> */}
-      <div class="music-wrapper">
-        <Music />
-      </div>
       <div class="linkcards-wrapper">
         <LinkCards />
       </div>
