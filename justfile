@@ -84,5 +84,9 @@ test-ci:
 check: typecheck lint test-ci build
 	@echo "✔ All checks passed"
 
-serve: build
-    cd dist && exec python3 -m http.server 80
+# Default
+port := "80"
+
+# Serve command, use --port to set port
+serve PORT=port:
+    cd dist && exec python3 -m http.server {{PORT}}
