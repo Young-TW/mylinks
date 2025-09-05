@@ -12,6 +12,12 @@ export const link_cards = [
     bg: "/matrix.jpg",
   },
   {
+    title: "Codeberg",
+    subtitle: "💻 My open source projects",
+    link: "https://codeberg.org/Young",
+    bg: "/codeberg.png",
+  },
+  {
     title: "Uptime Kuma",
     subtitle: "📈 All of my websites uptime status",
     link: "http://status.young-tw.com:12345/status/public",
