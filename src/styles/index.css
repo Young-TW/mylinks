@@ -5,10 +5,11 @@ html, body {
 }
 
 .main-bg {
-  background-image: url('/bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 2rem;
+  /* background-image: url('/bg.jpg'); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* padding-bottom: 2rem; */
+  background-color: #000000;
 }
 
 .main-container {
