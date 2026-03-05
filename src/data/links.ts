@@ -12,12 +12,6 @@ export const link_cards = [
     bg: "/matrix.jpg",
   },
   {
-    title: "Uptime Kuma",
-    subtitle: "📈 All of my websites uptime status",
-    link: "http://status.young-tw.com:12345/status/public",
-    bg: "/uptimekuma.png",
-  },
-  {
     title: "Mastodon.social",
     subtitle: "@young_tw | 🏡 My Mastodon.social account",
     link: "https://mastodon.youn.gg",
