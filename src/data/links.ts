@@ -19,7 +19,7 @@ export const link_cards = [
   },
   {
     title: "GitHub",
-    subtitle: "@Young | 🖥️ My open source projects",
+    subtitle: "@Young-TW | 🖥️ My open source projects",
     link: "https://github.com/Young-TW",
     bg: "/github.png",
   },
