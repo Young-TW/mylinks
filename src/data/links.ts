@@ -18,10 +18,10 @@ export const link_cards = [
     bg: "/codeberg.png",
   },
   {
-    title: "Uptime Kuma",
-    subtitle: "📈 All of my websites uptime status",
-    link: "http://status.young-tw.com:12345/status/public",
-    bg: "/uptimekuma.png",
+    title: "GitHub",
+    subtitle: "@Young | 🖥️ My open source projects",
+    link: "https://github.com/Young-TW",
+    bg: "/github.png",
   },
   {
     title: "Mastodon.social",
